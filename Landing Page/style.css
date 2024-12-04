@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(resort.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+}
+.navname {
+    color: white;
+    font-size: x-large;
+    cursor: default;
+}
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+}
+a {
+    transition-property: all;
+    transition-duration: 300ms;
+    /* transition-timing-function: ease-in; */
+}
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.navbar_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.regibtn {
+    height: 50px;
+    width: 150px;
+    background-color: gold;
+    border-radius: 17px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+button {
+    transition-property: initial;
+    transition-duration: 300ms;
+    /* transition-timing-function: ease-in; */
+}
+a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+    font-size: larger;
+}
+button:hover {
+    background-color: skyblue;
+    transform: scale(1.1);
+}
+.heading_container {
+    color: white;
+    margin-top: 25vh;
+    cursor: default;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    font-size: x-large;
+}
+.bighead {
+    font-size: 70px;
+}
+.rights {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+    cursor: default;
+}
