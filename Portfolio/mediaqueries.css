@@ -1,0 +1,120 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about_containers {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger_nav {
+        display: flex;
+    }
+    #experience {
+        margin-top: 2rem;
+    }
+    .experience_details_container {
+        margin-top: 2rem;
+    }
+    #profile {
+        display: block;
+    }
+    .section_container {
+        display: block;
+        height: fit-content;
+    }
+    .arrow {
+        display: none;
+    }
+    section {
+        height: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .section_pic_container {
+        height: 275px;
+        width: 275px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    .about_containers {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    #contact {
+        height: 40vh;
+    }
+    footer {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .about_containers {
+        flex-wrap: wrap;
+    }
+    .contact_info_upper_container {
+        flex-wrap: wrap;
+    }
+    .btn_container {
+        flex-wrap: wrap;
+    }
+    .contact_info_container {
+        margin: 0;
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .nav-links {
+        font-size: 1rem;     /*display: flex already applied in style.css*/
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    a {
+        font-size: 1rem;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .experience_sub_title {
+        font-size: 1.25rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .section_pic_container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section_text_p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+}

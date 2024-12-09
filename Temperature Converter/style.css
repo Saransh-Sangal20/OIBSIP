@@ -7,35 +7,31 @@ html {
 }
 body {
     margin: 0;
+    background-image: url("background2.png");
+    background-size: cover;
+    background-position: center;
     font-family: Arial, sans-serif;
-    background-color: skyblue;
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.thermometer {
-    position: absolute;
-    left: 25%;
-}
-img {
-    border-radius: 20px;
-}
 .container {
     text-align: center;
-    background-color: white;
+    background-color: #1A2B48, rgba(26, 43, 72, 0.85);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
     width: 90%;
     max-width: 400px;
     position: absolute;
-    left: 50%;
+    left: 45%;
+    top: 30%;
 }
 h1 {
     font-size: 22px;
-    color: #4a90e2;
+    color: white;
     margin-bottom: 15px;
 }
 .conversion-box {
