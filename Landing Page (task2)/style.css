@@ -5,11 +5,14 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100vh;
 }
 body {
     background-image: url(resort.jpg);
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
 }
@@ -85,4 +88,32 @@ p {
     align-items: center;
     margin-top: 210px;
     cursor: default;
+}
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow-x: hidden;  /* removes x-scroll */
+        overscroll-behavior: none;
+    }
+    .heading{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bighead {
+        text-align: center;
+        font-size: 3.3rem;
+    }
+    footer {
+        text-align: center;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .navlinks {
+        display: none;
+    }
 }
